@@ -1,0 +1,62 @@
+:root{
+    --light-grey: rgb(233, 231, 231);
+    --dark-grey: rgb(102, 102, 102);
+    --main-color:#a5d6a7;
+    --main-light:#d7ffd9;
+    --main-dark: #75a478;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+}
+nav{
+    background-color: var(--main-dark);
+    padding: 10px 5px;
+    font-weight: 500;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    align-items: center;
+
+}
+h1{
+    margin: 0px 10px;
+    font-weight: 600;
+    color: white;
+}
+
+#blog-list{
+    padding: 10px;
+    margin: 0px 10px;
+}
+h3{
+    font-weight: 300;
+}
+
+form {
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-light);
+    
+
+}
+input#post-title, textarea#post-body{
+ margin-bottom: 10px;
+ border: 1px solid --dark-grey;
+}
+button{
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+    width: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background-color: var(--main-dark);
+    border-radius: 20px;
+    color: white;
+}
